@@ -1,0 +1,46 @@
+
+/* CSS style for lab3 */
+
+ 
+
+     
+        
+         footer{
+           text-align: center;
+    font-size: 0.85em;
+    clear: left;
+    background-color: #365666;
+    font-weight: bold;
+    color: #fff;
+        }
+    footer a {
+    color: #234b95;
+    text-decoration: none;
+}
+.demo{
+   width: 50%;
+  height:50%;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: hsla(90, 50%, 50%, .5)  
+}
+
+.basic-box {
+  display: grid;
+  width: 50px;
+  height:50px;
+  background: #bac;
+  margin: 1rem;
+  place-items: center;
+}
+
+.go-btn {
+  background: #8c9;
+  border-radius: 50%;
+}
+
+.mover1 {
+  transition: all 1s ease-in-out;
+  transform: translateX(400px);
+}
+
