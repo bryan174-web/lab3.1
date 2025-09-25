@@ -1,8 +1,43 @@
 
 /* CSS style for lab3 */
 
- 
+  body {
+            margin:0;
+            height:100vh;
+            background-color: #67c090;
+        }
 
+        .ball {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            background: #DDF4E7;
+            opacity: 0;
+            transition: transform 1s;
+        } 
+
+        p {
+            margin-top: 10rem;
+            text-align: center;
+            font: bold 2rem sans-serif;
+        }
+
+header{background-color:#56A7A7 ;
+    color:#F9FBFC;   /*text for the header*/
+    text-align: center;
+    padding:.5rem;
+    font size:1.5em;
+}
+ 
+article{
+   margin:0;
+	padding:0;
+}
+
+
+
+
+ 
      
         
          footer{
@@ -29,7 +64,7 @@
   display: grid;
   width: 50px;
   height:50px;
-  background: #bac;
+  background: #124170;
   margin: 1rem;
   place-items: center;
 }
@@ -43,4 +78,3 @@
   transition: all 1s ease-in-out;
   transform: translateX(400px);
 }
-
