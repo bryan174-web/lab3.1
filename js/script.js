@@ -25,8 +25,13 @@ demo.addEventListener('mousedown', (e) => {
 });
 
 const go_btn = document.querySelector('.go-btn');
+const go_btn2 = document.querySelector('.go-btn2');
+const go_btn3 = document.querySelector('.go-btn3');
 
 const box1 = document.querySelector('.box1');
+const box2 = document.querySelector('.box2');
+const box3 = document.querySelector('.box3');
+
 
 
 //this toggles the existence of the mover1 class 
@@ -34,6 +39,10 @@ const box1 = document.querySelector('.box1');
 go_btn.addEventListener('click', (e) => {
   box1.classList.toggle('mover1');
 });
+go_btn2.addEventListener('click', (e) => {
+  box2.classList.toggle('mover2');
+});
 
-
-
+go_btn3.addEventListener('click', (e) => {
+  box3.classList.toggle('mover3');
+});

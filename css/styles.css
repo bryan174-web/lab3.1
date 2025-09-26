@@ -26,7 +26,7 @@ header{background-color:#56A7A7 ;
     color:#F9FBFC;   /*text for the header*/
     text-align: center;
     padding:.5rem;
-    font size:1.5em;
+    font-size: 1.5em;
 }
  
 article{
@@ -67,14 +67,29 @@ article{
   background: #124170;
   margin: 1rem;
   place-items: center;
+  color:#DDF4E7
 }
 
-.go-btn {
+.go-btn, .go-btn2, .go-btn3 {
   background: #8c9;
   border-radius: 50%;
+  color:black
+  
 }
 
+
 .mover1 {
-  transition: all 1s ease-in-out;
+  transition: all 3s ease-in-out;
   transform: translateX(400px);
 }
+.mover2{
+  transition: all 2s ease-out;
+    transform: translateX(400px);
+
+}
+.mover3{
+  transition: all 7s ease-in;
+    transform: translateX(400px);
+
+}
+
